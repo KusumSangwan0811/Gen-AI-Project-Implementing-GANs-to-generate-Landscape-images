@@ -13,8 +13,11 @@ One can
 visit [thispersondoesnotexist.com](https://thispersondoesnotexist.com). Every time you reload the page, a new image of a person's face is generated on the fly.
 
 
+## Downloading and Exploring the Data
+The dataset used is available on Kaggle and is accessible using the link: https://www.kaggle.com/datasets/arnaud58/landscape-pictures
+
 ## Dataset Preparation
-The dataset is prepared by downloading and preprocessing Pokémon images, which includes:
+The dataset is prepared by downloading and preprocessing Landscape images, which includes:
 
 1. Resizing images
 2. Center cropping
