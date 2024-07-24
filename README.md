@@ -13,10 +13,10 @@ One can visit [thispersondoesnotexist.com](https://thispersondoesnotexist.com). 
 
 
 ## Project Overview:
-1. Downloading and Exploring the Data
+### Downloading and Exploring the Data
 The dataset used is available on Kaggle and is accessible using the link: https://www.kaggle.com/datasets/arnaud58/landscape-pictures
 
-2. Dataset Preparation
+### Dataset Preparation
 The dataset is prepared by downloading and preprocessing Landscape images, which includes:
 
 1. Resizing images
@@ -25,19 +25,19 @@ The dataset is prepared by downloading and preprocessing Landscape images, which
 4. Normalizing the data
 
 
-3. Model Architecture
+### Model Architecture
 * Generator: Defined using transpose convolutional layers to generate realistic images from random noise.
 * Discriminator: Defined using convolutional layers to distinguish between real and fake images.
 
 
-4. Training Process
+### Training Process
 The training process involves alternating between:
 
 1. Training the Discriminator: To distinguish between real and generated (fake) images.
 2. Training the Generator: To produce more realistic images that can fool the discriminator.
 
 
-5. Visualization
+### Visualization
 The training progress is visualized through:
 
 1. Loss and Score Plots: Showing the performance of both the generator and discriminator over time.
