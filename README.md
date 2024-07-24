@@ -43,4 +43,8 @@ The training progress is visualized through:
 1. Loss and Score Plots: Showing the performance of both the generator and discriminator over time.
 2. Generated Image Samples: Displaying the quality of images produced by the generator at different stages of training.
 
+Reference:
+This is a project done in Jovian course titled Deep Learning with PyTorch: Zero to GANs.
+
+
 
