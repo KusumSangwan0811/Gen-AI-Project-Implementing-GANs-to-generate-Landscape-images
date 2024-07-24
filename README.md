@@ -9,14 +9,14 @@ The power of generative modeling is such that it can generate the following face
 
 <img src="https://imgix.bustle.com/inverse/4b/17/8f/0e/cf91/4506/99c7/e6a491c5d4ac/these-people-are-not-real--they-were-produced-by-our-generator-that-allows-control-over-different-a.png" style="width:480px; margin-bottom:32px"/>
 
-One can 
-visit [thispersondoesnotexist.com](https://thispersondoesnotexist.com). Every time you reload the page, a new image of a person's face is generated on the fly.
+One can visit [thispersondoesnotexist.com](https://thispersondoesnotexist.com). Every time you reload the page, a new image of a person's face is generated on the fly.
 
 
-## Downloading and Exploring the Data
+## Project Overview:
+1. Downloading and Exploring the Data
 The dataset used is available on Kaggle and is accessible using the link: https://www.kaggle.com/datasets/arnaud58/landscape-pictures
 
-## Dataset Preparation
+2. Dataset Preparation
 The dataset is prepared by downloading and preprocessing Landscape images, which includes:
 
 1. Resizing images
@@ -25,19 +25,19 @@ The dataset is prepared by downloading and preprocessing Landscape images, which
 4. Normalizing the data
 
 
-## Model Architecture
+3. Model Architecture
 * Generator: Defined using transpose convolutional layers to generate realistic images from random noise.
 * Discriminator: Defined using convolutional layers to distinguish between real and fake images.
 
 
-## Training Process
+4. Training Process
 The training process involves alternating between:
 
 1. Training the Discriminator: To distinguish between real and generated (fake) images.
 2. Training the Generator: To produce more realistic images that can fool the discriminator.
 
 
-## Visualization
+5. Visualization
 The training progress is visualized through:
 
 1. Loss and Score Plots: Showing the performance of both the generator and discriminator over time.
