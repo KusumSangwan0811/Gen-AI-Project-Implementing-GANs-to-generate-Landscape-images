@@ -1,6 +1,6 @@
 # Landscape Image Generation Using Generative Adversarial Networks (GANs)
 
-In this project, we generate landscape image by implimenting GANs on dataset containing around 5000 landscape images. Generative Adversarial Networks (GANs) offer a unique approach to generative modeling, characterized by a competitive interplay between two neural networks: Generators and Discriminators. 
+In this project, we generate landscape image by implementing GANs on dataset containing around 5000 landscape images. Generative Adversarial Networks (GANs) offer a unique approach to generative modeling, characterized by a competitive interplay between two neural networks: Generators and Discriminators. 
 
 
 The GAN architecture includes a generator, employing transpose convolutional layers, and a discriminator, using convolutional layers, both trained in a competitive framework. The training process involves an alternating strategy where the discriminator learns to differentiate between real and fake images, while the generator improves its ability to create convincing images to fool the discriminator. 
